@@ -1,0 +1,13 @@
+model,features,macro_f1,High_recall
+Logistic Regression,Content (text + content features),0.42542443603459096,0.3673469387755102
+Logistic Regression,Metadata only,0.2970092235406135,0.5918367346938775
+Logistic Regression,Behavioral only,0.3461330464491317,0.2653061224489796
+Logistic Regression,Metadata + Behavioral,0.3365041098049572,0.4489795918367347
+Logistic Regression,Text only (TF-IDF),0.37717639588410345,0.24489795918367346
+Logistic Regression,All features,0.39015264831337215,0.32653061224489793
+Random Forest,Content (text + content features),0.4398507165102019,0.35714285714285715
+Random Forest,Metadata only,0.32972011929937145,0.336734693877551
+Random Forest,Behavioral only,0.35238062696399663,0.11224489795918367
+Random Forest,Metadata + Behavioral,0.35029024725139374,0.1326530612244898
+Random Forest,Text only (TF-IDF),0.410557667499025,0.336734693877551
+Random Forest,All features,0.46382429845244416,0.35714285714285715
